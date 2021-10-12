@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./style.css">
+<title>
+   WEB - MAIN
+</title>
+<body>
+  <div id="top">
+    <input type="image" src="./github_before.png" onclick="window.open('https://github.com/Avoler0')" style="float:left"
+    width="30px">
+    <input type="image" src="./facebook_before.png" onclick="window.open('https://facebook.com')" style="float:left"
+    width="30px">
+    <input type="image" src="./blog_before.png" onclick="window.open('https://blog.naver.com/avoler01')" style="float:left"
+    width="30px">
+    <input type="image" src="./homepage_before.png" onclick="window.open('http://이정.웹.한국')" style="float:left"
+    width="30px">
+    <input type="image" src="./youtube_before.png" onclick="window.open('https://www.youtube.com/')" style="float:left"
+    width="30px">
+  </div>
+       <a href="index.html"> <h1>Client Server Get</h1></a>
+    <div id="frame">
+        <ul class="table">
+            <a class ="tablename" href="index.html">목차</a>
+            <strong>
+            <li><a href="uri.html">URI</a></li>
+            <li><a href="browser.html">Browser</li></a>
+            <li><a href="result.html">요청 흐름</li></a>
+            <li><a href="get.html" style="color:blue">Get방식</a></li>
+            <li><a href="post.html">Post방식</li></a>
+        </strong>
+        </ul>
+        <div id="page">
+        <h2>Get방식</h2>
+        Get이라는 단어는 가져오다라는 뜻을 가진 단어이다,
+        우리가 필요한 정보를 얻기 위해 도서관에서 책을 빌려 가져오는(GET)상황과 유사하게
+        GET은 어떠한 정보를 가져와서 조회하기 위해서 사용되는 방식이다
+        <ul style="padding-left:0px">
+          <li>클라이언트(Front-End)에서 서버(Back-End)에 정보를 요청할때 사용하는 메서드</li>
+          <li>URL에 변수(데이터)를 포함시켜 서버에 요청한다.</li>
+          <li>데이터를 Header(헤더)에 포함하여 전송한다.</li>
+          <li>URL에 데이터가 노출되어 보안에 취약하다.</li>
+          <li>캐싱을 사용할 수 있어 속도가 빠르다.</li>
+          </ul>
+          <p>
+          실제로 사용되는 GET방식의 설명은 예를 들어 우리가 어떤 페이지에 로그인을 하는 상황이라고 하며
+          ID와 PW를 입력한 후 엔터를 눌렀다고 칩니다. 이럴 때 요청을 GET방식으로 전송하는 경우에는
+          avoler0.com/login?id=voler&pw=tac와 같은 페이지가 있다고 가정을 하며,ID라는 Key는 voler라는 값(Value)을
+          pw라는 Key는 tac이라는 값(Value)를 전송하는것을 볼 수 있습니다.
+          여러개의 Key와 Value를 보내는 경우에 &을 사용하여 이어주는 GET방식은 최소환의 보안유지가 없기에
+          개인정보가 필요한 경우에 GET방식을 사용하게 되면 개인정보가 노출되는 문제가 발생합니다.
+          GET방식을 사용하여 데이터를 노출시키는 경우는 개인정보가 포함되지 않는 상황 속
+          *캐싱을 하여 속도를 높이거나 즐겨찾기를 편리하기 위해 사용되는 경우가 많습니다
+          우리가 어떤 물건 a에 대해서 즐겨찾기를 추가하면 그 물건의 이름이 a라는 정보를 URL에 추가하여 즐겨찾기를
+          생성할 수 있는것입니다.
+        </p>
+        <div style="border:1px solid red">
+          <strong>Caching(캐싱)이란?<br></strong>
+          한번 접근 후 , 또 요청할 시 빠르게 접근하기 위해 레지스터에 데이터를 저장시켜 놓는 것 입니다.
+</div>
+    </div>
+</div>
+</body>
+</head>
+</html>
