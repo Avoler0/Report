@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./style.css">
+<title>
+   WEB - URI
+</title>
+<body>
+  <div id="top">
+    <input type="image" src="icon/github_before.png" onclick="window.open('https://github.com/Avoler0')" style="float:left"
+    width="30px">
+    <input type="image" src="icon/facebook_before.png" onclick="window.open('https://facebook.com')" style="float:left"
+    width="30px">
+    <input type="image" src="icon/blog_before.png" onclick="window.open('https://blog.naver.com/avoler01')" style="float:left"
+    width="30px">
+    <input type="image" src="icon/homepage_before.png" onclick="window.open('http://이정.웹.한국')" style="float:left"
+    width="30px">
+    <input type="image" src="icon/youtube_before.png" onclick="window.open('https://www.youtube.com/')" style="float:left"
+    width="30px">
+  </div>
+    <a href="index.html"> <h1>uniform resource identifier</h1></a>
+    <div id="frame">
+        <ul class="table">
+            <a class ="tablename" href="index.html">목차</a>
+            <strong>
+            <li><a href="uri.html" target="_self" style="color:blue">URI</a></li>
+            <li><a href="browser.html">Browser</li></a>
+            <li><a href="result.html">요청 흐름</li></a>
+            <li><a href="get.html">Get방식</li></a>
+            <li><a href="post.html">Post방식</li></a>
+        </strong>
+        </ul>
+        <div id="page">
+            <ul>
+                <li> U R I</li>
+            </ul>
+            <ul class="type1">
+            <li>Uniform 리소스를 식별하는 통일된 방식<br></li>
+            <li>Resource 자원, URI로 식별할 수 있는 모든 것 (제한 없음)<br></li>
+            <li>Identifier 다른 항목과 구분하는데 필요한 정보<br></li>
+        </ul>
+        <ul>
+            <li>URL</li>
+        </ul>
+        <ul class="type1">
+            <li>URI의 존재는 인터넷에서 기본조건으로서 인터넷 프로토콜에 항상 붙어 다닌다</li>
+            <li>URI는 인터넷에 있는 자원을 나타내는 유일한 주소이다.</li>
+            <li>URI는 유일해야 하는 점이 있다.</li>
+            <li>URI는 URL , URN,URC을 포함하고 있으며
+                URI는 식별자 , URL은 위치 , URN은 이름으로 설명한다
+                </li>
+                #인터넷 프로토콜<br>서로 다른 시스템을 가진 컴퓨터들을 서로 연결하고, 데이터를 전송하는데<br>사용하는 통신 데이터를 교환하기 위해 사용되는 통신 규칙이다</li>
+        </ul>
+        <ul>
+            <li>URL의 구조</li>
+        </ul>
+        <ul class="type1">
+            <li><a href="https://github.com/Avoler0/Avoler0/blob/main/Programers/Programers/Programers.cpp" target="_blank">
+                https://github.com/Avoler0/Avoler0/blob/main/Programers/Programers/Programers.cpp</a>
+                이 주소의 경우 URI면서 URL이 될 수 있다
+                </li>
+                <li>https : 프로토콜</li>
+                <li>github.com : 호스트명 (컴퓨터의 위치) , 포트 번호(http는 80포트, https는 443포트,생략가능)</li>
+                    <li>Avo~/blob/main/Prog	~/Prog~/ : path (파일 디렉토리)</li>
+                    <li>Prog~.cpp : file (자원 이름)</li>
+                    <li>https://github.com/~/~/~/Programers.cpp?docid=123 <br>
+                        uri는 위의 URL에 ?docid=123라는 식별자가 붙게 된다<br>
+                        URI = URN + URL
+                        </li>
+        </ul>
+    </div>
+</div>
+</body>
+</head>
+</html>
